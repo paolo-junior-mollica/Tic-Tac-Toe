@@ -160,7 +160,7 @@ void print_grid(TicTacToe game) {
                 break;
             default:
                 fprintf(stderr, "Internal error");
-                exit(1);
+                exit(EXIT_FAILURE);
         }
         if (i == 2 || i == 5)
             printf("\n");
